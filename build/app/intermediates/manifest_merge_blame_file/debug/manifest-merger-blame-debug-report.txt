@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.no_api_shopping_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:4:5-67
+15-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:45:5-50:15
+24        <intent>
+24-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:46:9-49:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:47:13-73
+25-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:47:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:48:13-51
+27-->/Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/android/app/src/main/AndroidManifest.xml:48:19-48
+28        </intent>
+29    </queries>
+30
+31    <permission
+31-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.no_api_shopping_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.no_api_shopping_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.10.1] /Users/chakshu2005/.gradle/caches/transforms-3/a3842a17fe7307c5bcdac869078c73a0/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:enableOnBackInvokedCallback="true"
+42        android:icon="@mipmap/ic_launcher"
+43        android:label="no_api_shopping_app"
+44        android:usesCleartextTraffic="true" >
+45        <activity
+46            android:name="com.example.no_api_shopping_app.MainActivity"
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48            android:exported="true"
+49            android:hardwareAccelerated="true"
+50            android:launchMode="singleTop"
+51            android:theme="@style/LaunchTheme"
+52            android:windowSoftInputMode="adjustResize" >
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+61                android:name="io.flutter.embedding.android.NormalTheme"
+62                android:resource="@style/NormalTheme" />
+63            <meta-data
+64                android:name="flutterEmbedding"
+65                android:value="2" />
+66
+67            <intent-filter>
+68                <action android:name="android.intent.action.MAIN" />
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[:url_launcher_android] /Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+74-->[:url_launcher_android] /Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+75            android:exported="false"
+75-->[:url_launcher_android] /Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+76-->[:url_launcher_android] /Users/chakshu2005/AndroidStudioProjects/no_api_shopping_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /Users/chakshu2005/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+84    </application>
+85
+86</manifest>
